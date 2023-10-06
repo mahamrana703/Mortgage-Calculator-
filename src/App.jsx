@@ -6,8 +6,6 @@ import Results from "./components/Results";
 import { Container, Grid } from "@mui/material";
 
 function App() {
-  const [counter, setcounter] = useState(0);
-
   const [data, setData] = useState({
     homeValue: 3000,
     downPayment: 3000 * 0.2,

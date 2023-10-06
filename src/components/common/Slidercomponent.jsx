@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "@mui/material/Slider";
 import { Stack, Typography } from "@mui/material";
 

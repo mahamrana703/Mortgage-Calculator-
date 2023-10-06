@@ -1,4 +1,3 @@
-import React from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
@@ -18,7 +17,7 @@ const Tenureselect = ({ data, setData }) => {
       <Select
         labelId="demo-simple-select-label"
         id="demo-simple-select"
-        value={data.loanTerm || ""} // Ensure a default value or empty string
+        value={data.loanTerm || ""}
         label="Tenure"
         onChange={handleChange}
       >

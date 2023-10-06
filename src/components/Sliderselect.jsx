@@ -1,9 +1,6 @@
-import React from "react";
 import Slidercomponent from "./common/Slidercomponent";
 
 const Sliderselect = ({ data, setData }) => {
-  console.log(data);
-
   const bank_limit = 10000;
   return (
     <>
